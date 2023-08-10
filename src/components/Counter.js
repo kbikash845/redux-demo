@@ -7,10 +7,10 @@ const Counter = () => {
   const toggleCounterHandler = () => {};
 
   const incrementHandler=()=>{
-    dispatch({type:'increment'})
+    dispatch({type:'increase',value:2})
   }
   const decrementHandler=()=>{
-    dispatch({type:"decrement"})
+    dispatch({type:"decrease",value:2})
   }
 
   return (
